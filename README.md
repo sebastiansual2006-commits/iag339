@@ -11,8 +11,14 @@
 
 comados de git
 git init
+
 git add .
 git commit -m "nombre el commmit"
+git push
+git status
+
+git pull
+g339env/scripts/activate 
 
 Set-ExecutionPolicy Unrestricted
 
