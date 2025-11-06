@@ -1,8 +1,21 @@
-# mision 1
-## introduccion # python 
-| Comandos          | Utilidad                                  |
-| ----------------- | ----------------------------------------- |
-| phython --version | Mostrar que version de python tenemos     |
-| cdt               | Navegar entre carpetas                    |
-| dir i Is          | Listar lo que esta dentro de las carpetas |
-| py nombre.py      | Ejecutar el archivo de python             |               
+# Misión 1
+## Introducción a python
+
+| Comandos           | utilida               |
+|--------------------|-----------------------|
+| python --version   | ver versión           |
+| cd                 | cambio de directorio  |
+| dir o ls           | listar archivos       |
+| py nombre.py       | ejecutar python       |
+| python -m venv env | crear entorno virtual |
+
+comados de git
+git init
+git add .
+git commit -m "nombre el commmit"
+
+Set-ExecutionPolicy Unrestricted
+
+```
+print("Hola Mundo")
+```
