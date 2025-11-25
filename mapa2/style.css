@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+#map-container {
+    position: relative;
+    display: inline-block;
+}
+
+#map-image {
+    width: 900px;
+}
+
+#map-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 900px;
+    height: auto;
+}
+
+.zona {
+    fill: rgba(0, 150, 255, 0.15);
+    stroke: #0077cc;
+    stroke-width: 2;
+    transition: fill 0.2s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+/* ANIMACIÓN HOVER */
+.zona:hover {
+    fill: rgba(255, 200, 0, 0.5);
+    transform: scale(1.05);
+}
+
+/* Tooltip */
+#tooltip {
+    position: absolute;
+    padding: 8px 12px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    pointer-events: none;
+    display: none;
+    font-size: 14px;
+    z-index: 999;
+}

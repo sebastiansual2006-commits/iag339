@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interactivo - Universidad de Caldas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Mapa Interactivo - Universidad de Caldas</h1>
+
+<div id="map-container">
+    <img id="map-image" src="./img/mapa-ucaldas.jpg" alt="Mapa Universidad de Caldas">
+
+    <!-- ZONAS: polígonos SVG interactivos -->
+    <svg id="map-svg">
+
+        <!-- Bloque A -->
+        <polygon class="zona" id="zonaA"
+            points="410,230 480,230 480,330 410,330"
+            data-nombre="Bloque A"></polygon>
+
+        <!-- Bloque B -->
+        <polygon class="zona" id="zonaB"
+            points="350,230 400,230 400,300 350,300"
+            data-nombre="Bloque B"></polygon>
+
+        <!-- Bloque C -->
+        <polygon class="zona" id="zonaC"
+            points="300,250 340,250 340,320 300,320"
+            data-nombre="Bloque C"></polygon>
+
+        <!-- Bloque D -->
+        <polygon class="zona" id="zonaD"
+            points="250,180 340,180 340,240 250,240"
+            data-nombre="Bloque D"></polygon>
+
+        <!-- Bloque E -->
+        <polygon class="zona" id="zonaE"
+            points="300,330 360,330 360,390 300,390"
+            data-nombre="Bloque E"></polygon>
+
+        <!-- Bloque F -->
+        <polygon class="zona" id="zonaF"
+            points="200,350 260,350 260,420 200,420"
+            data-nombre="Bloque F"></polygon>
+
+        <!-- Bloque G -->
+        <polygon class="zona" id="zonaG"
+            points="150,400 220,400 220,470 150,470"
+            data-nombre="Bloque G"></polygon>
+
+        <!-- Zona T -->
+        <polygon class="zona" id="zonaT"
+            points="430,410 490,410 490,470 430,470"
+            data-nombre="Zona T"></polygon>
+
+    </svg>
+</div>
+
+<div id="tooltip"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
